@@ -1,7 +1,15 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "In silico design and characcterisation of mRNA vaccine against hepatocellular carcinoma"
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+This project involved epitope prediction, modelling and assessment of physicochemical properties using IEDB tools, AlphaFold2, and ExpaSy ProtParam.
+
+Key tasks included:
+- Protein retrieval and prediction antigenic and immunogenic epitopes
+- Assessment of toxicity, interferon gamma induction capacity and antigencity
+- 2D and 3D modelling the translated vaccine peptide
+- Molecular docking to component of innate immunity and molecular dynamics simulations
+- Normal mode analysis
+- In silico antitumor immunity prediction
+
