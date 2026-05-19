@@ -24,13 +24,13 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  name             : "Daniel Amewoalor"
+  pronouns         : # example: "him/his"  
+  bio              : "Biomedical science trainee interested in cancer immunogenics, genetics of rare genetic diseases, and personalised medicine"
   location         : "Earth"
-  employer         : "Red Brick University"
+  employer         : "Kwame Nkrumah University of Science and Technology"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "daniel.amewoalor.official@gmail.com" 
 
   # Academic websites
   academia         : # URL
