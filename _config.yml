@@ -23,7 +23,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "Pic 6.jpeg"
+  avatar           : "https://github.com/AmewoalorDaniel/danielamewoalor.github.io/blob/master/images/Pic%206.jpeg"
   name             : "Daniel Amewoalor"
   pronouns         : # example: "him/his"  
   bio              : "Biomedical science trainee interested in cancer immunogenics, genetics of rare genetic diseases, and personalised medicine"
