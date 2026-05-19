@@ -13,12 +13,12 @@ title                    : "About Me"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
-#url                      :  # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+#url                      :  The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-#baseurl                  : "" # the subpath of your site, e.g. "/blog"
-url: "https://amewoalordaniel.github.io"
+#baseurl                  : "" the subpath of your site, e.g. "/blog"
+url                      : "https://amewoalordaniel.github.io"
 baseurl: ""
-repository               : "amewoalordaniel.github.io"
+repository               : "AmewoalorDaniel/amewoalordaniel.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
