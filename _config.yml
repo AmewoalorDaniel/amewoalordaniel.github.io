@@ -1,7 +1,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Daniel Amewoalor"
+title                    : "Home"
 title_separator          : "-"
 name                     : &name "Daniel Amewoalor"
 description              : &description "Biomedical scientist | Cancer Immunology | Genomics | Bioinformatics"
