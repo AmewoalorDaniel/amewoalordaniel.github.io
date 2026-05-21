@@ -36,10 +36,10 @@ Ogunniyi T., Otabil J., Mohammed-Nafi'u R., Brobbey S.S., Essandoh A., **Amewoal
 
 **Amewoalor D.**, Danquah F.Y.E., Manu K.K., Dunyo P., & Kwarteng A.
 "Ig-like domain-containing protein of *Wuchereria bancrofti*: a therapeutic target for a multi-epitope subunit vaccine against lymphatic filariasis."
-*Ghana Science Association – Kumasi Annual Conference*, Kumasi, Ghana — November 2024. [Book of Abstracts : page 100](https://drive.google.com/file/d/1p84geTmTbdiA-483vRCM8ta5DCtaVxPE/view?usp=sharing)
+*Ghana Science Association – Kumasi Annual Conference*, Kumasi, Ghana — November 2024. [Book of Abstracts, p. 100](https://drive.google.com/file/d/1p84geTmTbdiA-483vRCM8ta5DCtaVxPE/view?usp=sharing)
 
 **Amewoalor D.**, Danquah F.Y.E., Manu K.K., Dunyo P., & Kwarteng A.
-Same title. *Faculty of Physical and Computational Sciences PosterFest'24*, KNUST — October 2024. [Book of Abstracts : page 78](https://drive.google.com/file/d/1FDTMogsSOiA8o9YIZ81OEc8SXdrJpZoE/view?usp=sharing)
+Same title. *Faculty of Physical and Computational Sciences PosterFest'24*, KNUST — October 2024. [Book of Abstracts, p. 78](https://drive.google.com/file/d/1FDTMogsSOiA8o9YIZ81OEc8SXdrJpZoE/view?usp=sharing)
 
 **Amewoalor D.**, Danquah F.Y.E., Manu K.K., Dunyo P., & Kwarteng A.
-Same title. *Molecular Parasitology Meeting XXXV*, Woods Hole, USA — September 2024. *(Virtual)* [Book of Abstracts : page 344](https://drive.google.com/file/d/1U71698QSU9mLOu2kv8DUTGtt0K-kiZLl/view)
+Same title. *Molecular Parasitology Meeting XXXV*, Woods Hole, USA — September 2024. *(Virtual)* [Book of Abstracts, p. 344](https://drive.google.com/file/d/1U71698QSU9mLOu2kv8DUTGtt0K-kiZLl/view)
