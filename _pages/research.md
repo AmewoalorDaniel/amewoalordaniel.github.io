@@ -55,6 +55,7 @@ I use computational biology and multi-omics integration to understand disease at
 Underlying all of my research interests is a strong commitment to translational science and global health relevance. I am motivated by the challenge of moving genomic and immunological discoveries toward clinically actionable insights, particularly in resource-limited settings and for diseases that disproportionately affect African populations.
 
 Rigorous basic science and real world clinical impact are not separate goals; they are deeply connected.  I aim to produce research that is scientifically robust, globally relevant, and capable of improving healthcare outcomes in underrepresented communities.
+
 ---
 
 *See the [Projects](/projects/) page for the specific studies through which I pursue these questions.*
