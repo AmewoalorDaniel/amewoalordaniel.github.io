@@ -4,7 +4,7 @@ permalink: /research/
 author_profile: true
 ---
 
-My research examines how genomic alterations and immune dysregulation drive cancer and other complex diseases at the intersection of cancer biology, immunology, human genetics, and computational biology, with a focus on clinically meaningful discoveries for underrepresented populations and the world.
+My research examines how genomic alterations and immune dysregulation drive cancer and other complex diseases at the intersection of cancer biology, immunology, human genetics, and computational biology, with a focus on clinically meaningful discoveries for underrepresented populations.
 ---
 
 #### Cancer Immunology and Immunotherapy
