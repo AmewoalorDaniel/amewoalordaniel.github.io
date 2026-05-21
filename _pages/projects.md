@@ -41,6 +41,7 @@ This project investigates how ferroptosis driver and suppressor pathways are dis
 Oxidative stress is a reactive oxygen species-dependent cell death pathway regulated by AIFM2, PGAM5, and KEAP1, genes frequently altered in cancer. Although these alterations are well documented at the genomic level, their effects on the tumour immune microenvironment remain largely unexplored.
 
 In this project, I analysed approximately 2,055 patients across four TCGA cancer cohorts to investigate whether alterations in the oxeiptosis pathway are associated with changes in tumour immune composition, immune activity, and immunotherapy response. I am also exploring whether recurrent KEAP1 hotspot mutations generate neoantigens that could serve as targets for therapeutic cancer vaccines. Preliminary findings suggest altered macrophage and regulatory T cell infiltration patterns in affected lung adenocarcinomas, as well as broader immune subtype shifts in both lung and breast cancers.
+
 ---
 
 ### Integrative Cancer Genomics Approach to Design and Characterize a Multi-Epitope mRNA Vaccine Against Hepatocellular Carcinoma {#hcc-vaccine}
