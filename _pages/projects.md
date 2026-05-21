@@ -4,7 +4,7 @@ permalink: /projects/
 author_profile: true
 ---
 
-The projects below represent the main studies through which I explore my broader research interests [Research](/research/) in cancer genomics, immunology, human genetics, and computational biology.
+The projects below represent the main studies through which I explore my broader research interests in cancer genomics, immunology, human genetics, and computational biology on the [Research](/research/) page.
 
 ---
 
