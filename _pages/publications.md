@@ -4,10 +4,6 @@ permalink: /publications/
 author_profile: true
 ---
 
-#You can also find my work on my [Google Scholar profile](https://scholar.google.com/citations?user=PS_CX0AAAAAJ).
-
----
-
 ### Manuscripts in Preparation
 
 **Amewoalor D.**, Danquah F.Y.E., Manu K.K., Dunyo P., Abakah A., & Kwarteng A.
