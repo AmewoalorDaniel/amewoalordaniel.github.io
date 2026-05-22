@@ -50,7 +50,7 @@ HOW TO ADD PHOTOS
 
   <figure>
     <img src="/images/tekconfab25.jpg" alt="TEKCONFAB 2025">
-    <figcaption><strong>TEKCONFAB'25</strong> · KNUST Scientific Conference, November 2025 · Presenting the LMNA Mandibuloacral Dysplasia poster.</figcaption>
+    <figcaption><strong>TEKCONFAB'25</strong> · KNUST Scientific Conference, November 2025 · Presenting the <em>LMNA</em> Mandibuloacral Dysplasia poster.</figcaption>
   </figure>
 
   <figure>
