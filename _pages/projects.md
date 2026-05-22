@@ -115,7 +115,7 @@ Lymphatic filariasis, caused by Wuchereria bancrofti, affects millions of people
 The project targeted the Ig-like domain-containing protein from the parasite proteome and used epitope prediction tools to design a multi-epitope subunit vaccine that elicits CD4⁺ T cell, CD8⁺ T cell, and B cell responses. Molecular docking analyses predicted interaction with the innate immune receptor TLR4, while in silico immune simulations suggested sustained antibody production and immune memory formation.
 
 <details>
-<summary><strong>Technical Approach</strong></summary>
+<summary><strong>Approach & Tools</strong></summary>
 <br>
 I mapped B cell epitopes with Bepipred 2.0 and T cell epitopes with NetMHCpan (MHC class I) and NetMHCIIpan (MHC class II) to identify regions critical for antibody recognition and T cell receptor activation. I predicted secondary structure with PSIPRED. For tertiary structure, I modelled the vaccine construct using AlphaFold2 to enable subsequent docking with TLR4.
      
