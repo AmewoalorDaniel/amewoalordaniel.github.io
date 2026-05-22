@@ -28,7 +28,7 @@ Kumasi, Ghana — November 2025
 October 2025
 
 "In silico design and characterisation of a novel multi-epitope mRNA vaccine against hepatocellular carcinoma targeting overexpressed CDC25C and AURKA."
-*Amewoalor D.*
+*Amewoalor D.* [Download Poster (PDF)](/files/Daniel_Amewoalor-Labroots.pdf)
 
 <!-- <a href="/images/labroots2025-poster.jpg">
   <img src="/images/labroots2025-poster.jpg" alt="Labroots 2025 Poster"
@@ -43,7 +43,7 @@ October 2025
 Kumasi, Ghana — November 2024
 
 "Ig-like domain-containing protein of *Wuchereria bancrofti*: a therapeutic target for a multi-epitope subunit vaccine against lymphatic filariasis."
-*Amewoalor D., Danquah F.Y.E., Manu K.K., Dunyo P., & Kwarteng A.*
+*Amewoalor D., Danquah F.Y.E., Manu K.K., Dunyo P., & Kwarteng A.* Download Poster (PDF)](/files/GSA_Daniel_Amewoalor_2024.pdf)
 
 <!-- <a href="/images/gsa2024-poster.jpg">
   <img src="/images/gsa2024-poster.jpg" alt="GSA Kumasi 2024 Poster"
