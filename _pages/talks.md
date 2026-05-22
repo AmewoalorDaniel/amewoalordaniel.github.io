@@ -28,7 +28,7 @@ Kumasi, Ghana — November 2025
 October 2025
 
 "In silico design and characterisation of a novel multi-epitope mRNA vaccine against hepatocellular carcinoma targeting overexpressed CDC25C and AURKA."
-*Amewoalor D.* [Download Poster (PDF)](/files/Daniel_Amewoalor-Labroots.pdf)
+*Amewoalor D.*   [Download Poster (PDF)](/files/Daniel_Amewoalor-Labroots.pdf)
 
 <!-- <a href="/images/labroots2025-poster.jpg">
   <img src="/images/labroots2025-poster.jpg" alt="Labroots 2025 Poster"
