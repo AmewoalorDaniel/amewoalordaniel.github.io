@@ -59,13 +59,8 @@ HOW TO ADD PHOTOS
   </figure>
 
   <figure>
-    <img src="/images/gsa-conference-2024.jpg" alt="Ghana Science Association Conference 2024">
-    <figcaption><strong>Ghana Science Association Conference</strong> · Kumasi, November 2024 · Presenting research on lymphatic filariasis vaccine design.</figcaption>
-  </figure>
-
-  <figure>
-    <img src="/images/posterfest24.jfif" alt="KNUST PosterFest 2024">
-    <figcaption><strong>KNUST PosterFest'24</strong> · Faculty of Physical and Computational Sciences, October 2024.</figcaption>
+    <img src="/images/posterfest24.jfif" alt="Faculty of Physical and Computational Sciences, October 2024">
+    <figcaption><strong>KNUST PosterFest'24</strong> · Kumasi, October 2024 · Presenting research on lymphatic filariasis vaccine design.</figcaption>
   </figure>
 
   <figure>
