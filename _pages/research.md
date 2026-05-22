@@ -7,7 +7,7 @@ author_profile: true
 My research examines how genomic alterations and immune dysregulation drive cancer and other complex diseases at the intersection of cancer biology, immunology, human genetics, and computational biology, with a focus on clinically meaningful discoveries for underrepresented populations.
 ---
 
-#### Cancer Immunology and Immunotherapy
+### Cancer Immunology and Immunotherapy
 
 <!-- Upload a figure to /images/ and uncomment:
 <img src="/images/cancer-immunity.png" alt="Cancer immunology"
@@ -19,7 +19,7 @@ A major focus of my research is improving tumour specificity and predicting pati
 
 ---
 
-#### Cancer Genomics and Tumour Microenvironment Biology
+### Cancer Genomics and Tumour Microenvironment Biology
 
 <!-- <img src="/images/tumour-microenvironment.png" alt="Tumour microenvironment"
      style="float:right; width:300px; margin:0 0 15px 25px; border-radius:6px;"> -->
@@ -30,7 +30,7 @@ My recent work has focused on tumour-associated macrophages and their functional
 
 ---
 
-#### Human Genetics of Rare and Complex Disease
+### Human Genetics of Rare and Complex Disease
 
 <!-- <img src="/images/rare-disease-genetics.png" alt="Rare disease genomics"
      style="float:right; width:300px; margin:0 0 15px 25px; border-radius:6px;"> -->
@@ -41,7 +41,7 @@ I focus on how rare germline variants contribute to distinct disease phenotypes,
 
 ---
 
-#### Computational Biology and Multi-Omics Integration
+### Computational Biology and Multi-Omics Integration
 
 <!-- <img src="/images/computational-biology.png" alt="Computational biology"
      style="float:right; width:300px; margin:0 0 15px 25px; border-radius:6px;"> -->
@@ -50,7 +50,7 @@ I use computational biology and multi-omics integration to understand disease at
 
 ---
 
-#### Translational and Global Health Research
+### Translational and Global Health Research
 
 Underlying all of my research interests is a strong commitment to translational science and global health relevance. I am motivated by the challenge of moving genomic and immunological discoveries toward clinically actionable insights, particularly in resource-limited settings and for diseases that disproportionately affect African populations.
 
