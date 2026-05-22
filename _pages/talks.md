@@ -13,6 +13,8 @@ Kumasi, Ghana — November 2025
 
 "Recurrent pathogenic *LMNA* gene variant causes Mandibuloacral Dysplasia in a Ghanaian multiplex family."
 *Amewoalor D., Baffoe V.D., Mensah G.O., Martyn-Dickens C., Tsri B., Tweneboah J.O., Asamoah C.O., Sabbah D.K., Tawiah E.A., Plange-Rhule G., Busch T., Obiri-Yeboah S., Butali A., Hing A., Donkor P., Gowans L.J.J.*
+[Download Poster (PDF)]/files/Daniel_Amewoalor_Poster #306.0.pdf)
+
 
 <!-- Upload poster image to /images/ and uncomment:
 <a href="/images/tekconfab25-poster.jpg">
