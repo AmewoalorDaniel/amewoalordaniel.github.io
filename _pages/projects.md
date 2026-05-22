@@ -21,7 +21,11 @@ My MPhil research investigates this connection using whole-exome sequencing in a
 <details>
 <summary><strong>Technical Approach</strong></summary>
 <br>
-Whole exome sequencing data is processed through a multi-stage bioinformatics pipeline: quality control and adapter trimming (FastQC, Trimmomatic), alignment to GRCh38 (Sentieon), variant calling (DNAscope), and VCF normalization (bcftools). Rare variant filtering uses population frequency thresholds against gnomAD v4.0, 1000 Genomes, and the African Genome Variation Database. Functional annotation is performed with Ensembl VEP v115, and pathogenicity is assessed using 11 in silico prediction tools including AlphaMissense, REVEL, CADD, ClinPred, and SpliceAI, with clinical cross-referencing against ClinVar, LOVD, DECIPHER, OMIM, and cBioPortal. Ongoing work includes ACMG variant classification, structural protein modelling (HOPE, GROMACS), regulatory variant interpretation (RegulomeDB, 3DSNP, AlphaGenome), protein interaction and pathway enrichment analysis (STRING, Cytoscape, Reactome, clusterProfiler), and single-cell expression mapping across craniofacial and cancer contexts (CancerSCEM 2.0, CZ CELLxGENE, CanCellVar).
+Whole exome sequencing data was processed through a multi-stage bioinformatics workflow beginning with quality assessment and adapter trimming using FastQC and Trimmomatic, followed by alignment to the GRCh38 reference genome with the Sentieon framework. Variant calling was performed using Sentieon's DNAscope, with downstream VCF normalization and processing conducted in bcftools.
+
+For rare variant prioritization, I used filtered out common variants using population frequencies from gnomAD v4.0, the 1000 Genomes Project, and the African Genome Variation Database to retain variants enriched in underrepresented populations. Functional annotation was achieved with Ensembl VEP v115. The pathogenicity interpretation integrated multiple in silico prediction frameworks, including AlphaMissense, REVEL, CADD, ClinPred, and SpliceAI. Variants were cross-referenced against ClinVar, LOVD, DECIPHER, OMIM, and cBioPortal to assess prior disease associations and clinical relevance.
+
+Current downstream analyses include ACMG-guided variant classification, structural protein modelling using HOPE and GROMACS, and regulatory variant interpretation through RegulomeDB, 3DSNP, and AlphaGenome. To place candidate variants within broader biological networks, I also perform protein interaction and pathway enrichment analyses using STRING, Cytoscape, Reactome, and clusterProfiler, alongside single-cell expression mapping across craniofacial developmental and cancer-related datasets using CancerSCEM 2.0, CZ CELLxGENE, and CanCellVar.
 <br><br>
 <strong>Key tools:</strong> Sentieon · DNAscope · Ensembl VEP v115 · AlphaMissense · REVEL · CADD · ClinPred · SpliceAI · gnomAD · GROMACS · STRING · clusterProfiler · Reactome
 </details>
@@ -41,7 +45,11 @@ This project investigates how ferroptosis driver and suppressor pathways are dis
 <details>
 <summary><strong>Technical Approach</strong></summary>
 <br>
-TAM subtypes are defined using the 18-subtype canonical framework (Rakina et al., <em>Heliyon</em>, 2024), operationalized through TISCH2 single-cell RNA-seq signatures across all five cancer types. Ferroptosis gene sets (12 total) are curated from FerrDb V2/V3 and MSigDB, covering driver and suppressor programs and manually defined axes (GPX4, ACSL4, iron metabolism, p53/NRF2). Bulk TAM deconvolution uses CIBERSORTx with custom 18-subtype signature matrices, with TIMER2.0 for cross-validation. ssGSEA scoring of ferroptosis programmes and TAM consensus signatures is performed with the GSVA package across TCGA STAR FPKM-UQ expression matrices. Prognostic modelling uses univariate Cox pre-selection followed by LASSO Cox regression (glmnet) per cancer type, validated in independent GEO cohorts (GSE25066, GSE39582, GSE73731, GSE109211, GSE72094). Drug sensitivity for ferroptosis-targeted agents (RSL3, Erastin, Sorafenib) is predicted via oncoPredict/GDSC2. Immunogenomic analyses include TIDE immune exclusion scoring and immune checkpoint expression profiling.
+I defined TAM subtypes using the 18-subtype canonical framework described by Rakina et al. (Heliyon, 2024).  Single-cell signatures from TISCH2 allowed me to apply this classification across five solid tumour types (breast, colon, lung, ovarian, and melanoma). I curated ferroptosis gene programmes from FerrDb V2/V3 and MSigDB, covering canonical drivers and suppressors. I manually curated regulatory axes involving *GPX4*, *ACSL4*, iron metabolism, and *p53*/*NRF2* signalling.
+     
+I deconvoluted bulk transcriptomes using CIBERSORTx with my custom 18‑subtype signature matrix. TIMER2.0 served as orthogonal validation to confirm robustness. Ferroptosis pathway activity and TAM consensus signatures were quantified using ssGSEA (GSVA package) across TCGA STAR FPKM‑UQ datasets.
+     
+To evaluate clinical significance, I performed prognostic modelling combining univariate Cox screening with LASSO Cox regression (glmnet). External validation was conducted across independent GEO cohorts: GSE25066, GSE39582, GSE73731, GSE109211, and GSE72094. I predicted drug sensitivity to ferroptosis‑targeting compounds (RSL3, Erastin, Sorafenib) using oncoPredict and GDSC2. For immunogenomic characterization, I applied TIDE to model immune exclusion and profiled immune checkpoint gene expression.
 <br><br>
 <strong>Key tools:</strong> GSVA · CIBERSORTx · TIMER2.0 · TISCH2 · FerrDb · glmnet (LASSO Cox) · oncoPredict/GDSC2 · TIDE · ComplexHeatmap · survminer · R (tidyverse, survival, TCGAbiolinks)
 </details>
@@ -61,7 +69,11 @@ In this project, I analysed approximately 2,055 patients across four TCGA cancer
 <details>
 <summary><strong>Technical Approach</strong></summary>
 <br>
-A binary alteration status variable (oxi_status) is derived from somatic mutation data (MC3 masked MAF) and GISTIC2 copy number scores for core oxeiptosis genes (AIFM2, PGAM5, KEAP1) and an extended gene set (NFE2L2, RIPK3, CASP8, HMOX1, GPX4). Genomic characterisation includes TMB computation (maftools), mutational signature decomposition targeting SBS4, SBS7, SBS18, and SBS36 (deconstructSigs), and co-mutation oncoprint analysis. Immune cell composition is quantified using CIBERSORTx (22-cell absolute mode), TIMER2.0, and IOBR v2.2.0, with pan-cancer immune subtype classification based on the Thorsson et al. (2018) framework. Differential expression analysis uses DESeq2 with apeglm LFC shrinkage, followed by random-effects meta-analysis across four cohorts using metafor (26,344 genes tested). Survival modelling combines multivariable Cox regression and pan-cancer mixed-effects Cox (coxme), with time-dependent AUC computed via timeROC. ICB response prediction integrates TIDE and ImmunoPhenoScore. A neoantigen prediction module targeting KEAP1 hotspot mutations (G333C, R320Q, R272C) using pVACtools/pVACseq is in progress.
+I derived a binary alteration status, oxi_status, marking tumours with any somatic mutation or copy number alteration in core oxeiptosis regulators (*AIFM2*, *PGAM5*, *KEAP1*). I then extended this set to include pathway‑associated genes such as "NFE2L2", "RIPK3", "CASP8", "HMOX1", "GPX4", using MC3 masked MAF files and GISTIC2 scores.
+
+For genomic characterization, I estimated tumour mutational burden with maftools. Mutational signature decomposition (deconstructSigs) prioritized SBS4, SBS7, SBS18, and SBS36 because of their known links to oxidative stress and inflammation. Co‑mutation patterns were visualised using oncoprints. Immune cell composition was quantified with CIBERSORTx (absolute mode), TIMER2.0, and IOBR v2.2.0. Pan‑cancer immune subtypes were assigned following the framework of Thorsson et al. (2018).
+
+I performed differential expression analysis using DESeq2 with apeglm shrinkage, followed by a random‑effects meta‑analysis across four cohorts (metafor), encompassing 26,344 genes. Survival analysis integrated multivariable Cox regression with mixed‑effects pan‑cancer Cox models (coxme). Predictive performance was evaluated using time‑dependent ROC analysis. Immunotherapy response prediction incorporated both TIDE and ImmunoPhenoScore. In parallel, I am predicting neoantigens derived from recurrent KEAP1 hotspot mutations (G333C, R320Q, R272C) using pVACtools and pVACseq, to assess immunogenicity in patient cohorts.
 <br><br>
 <strong>Key tools:</strong> DESeq2 · maftools · deconstructSigs · CIBERSORTx · IOBR · TIMER2.0 · metafor · coxme · timeROC · TIDE · ImmunoPhenoScore · pVACtools · R (TCGAbiolinks, clusterProfiler, survminer)
 </details>
@@ -81,9 +93,13 @@ Using transcriptomic analyses of TCGA liver cancer datasets and single-cell vali
 <details>
 <summary><strong>Technical Approach</strong></summary>
 <br>
-Oncogene targets (CDC25C, AURKA) were identified from the TCGA-LIHC dataset using DESeq2 differential expression analysis (Bioconductor, R) and validated at single-cell resolution via TISCH2. Immunogenic MHC-I and MHC-II epitopes were predicted using IEDB, with antigenicity, allergenicity, and toxicity screening via VaxiJen, AllerTop, and ToxinPred respectively. The multi-epitope vaccine peptide was structurally modelled with AlphaFold2 and refined using GalaxyRefine. Molecular dynamics simulations assessing stability and flexibility of the vaccine–TLR2 complex were run in GROMACS over 100 ns, with trajectory analysis performed using the MDAnalysis Python package. Computational immune simulation using C-IMMSIM predicted B cell antibody titers, T cell activation profiles, and long-term immunological memory. In silico cloning and codon optimisation were performed using SnapGene and GenScript.
+I validated *CDC25C* and *AURKA* as candidate oncogenic targets through differential expression analysis of TCGA‑LIHC (DESeq2). The findings were corroborated at single‑cell resolution using TISCH2 datasets. I predicted MHC class I and II epitopes using IEDB tools, then screened the candidates for antigenicity (VaxiJen), allergenicity (AllerTop), and toxicity (ToxinPred) to select only safe, immunogenic epitopes.
+
+I modelled the multi‑epitope vaccine construct with AlphaFold2 and refined the structure using GalaxyRefine to correct steric clashes and improve side‑chain packing. To assess structural stability and receptor interaction dynamics, I performed molecular dynamics simulations of the vaccine–TLR2 complex in GROMACS over 100 ns, with trajectory analyses using the MDAnalysis Python package.
+
+I simulated immune responses using C‑IMMSIM, quantifying antibody titres, T cell activation kinetics, and the generation of long‑term immune memory. For translational feasibility, I performed in silico cloning and codon optimisation using SnapGene and GenScript.
 <br><br>
-<strong>Key tools:</strong> DESeq2 · TISCH2 · IEDB · VaxiJen · AllerTop · ToxinPred · AlphaFold2 · GalaxyRefine · GROMACS · MDAnalysis · C-IMMSIM · SnapGene · GenScript
+<strong>Key tools:</strong> DESeq2 · TISCH2 · IEDB · VaxiJen · AllerTop · ToxinPred · AlphaFold2 · GalaxyRefine · MDAnalysis · C-IMMSIM · SnapGene · GenScript
 </details>
 
 ---
@@ -101,9 +117,11 @@ The project targeted the Ig-like domain-containing protein from the parasite pro
 <details>
 <summary><strong>Technical Approach</strong></summary>
 <br>
-Comprehensive B cell and T cell epitope mapping was performed using IEDB prediction tools. The primary and secondary vaccine structure was constructed and assessed using PSIPRED, and the tertiary structure was modelled for docking studies. Protein–protein docking with TLR4 was performed using ClusPro, with binding interaction analysis in PyMol and Discovery Studio. In silico immune simulation used the C-IMMSIM webserver to quantify predicted antibody titers, cytokine production profiles, and long-term memory cell formation. In silico cloning and codon optimisation were carried out using SnapGene and GenScript.
+I mapped B cell epitopes with Bepipred 2.0 and T cell epitopes with NetMHCpan (MHC class I) and NetMHCIIpan (MHC class II) to identify regions critical for antibody recognition and T cell receptor activation. I predicted secondary structure with PSIPRED. For tertiary structure, I modelled the vaccine construct using AlphaFold2 to enable subsequent docking with TLR4.
+     
+I docked the vaccine construct against TLR4 using ClusPro, then analysed and visualised binding interfaces (hydrogen bonds, hydrophobic contacts) in PyMol. I used C‑IMMSIM to simulate immune outcomes, predicting antibody titres, cytokine profiles (IL‑2, IFN‑γ), and the persistence of memory cells after antigen exposure.
 <br><br>
-<strong>Key tools:</strong> IEDB · PSIPRED · ClusPro · PyMol · Discovery Studio · C-IMMSIM · SnapGene · GenScript
+<strong>Key tools:</strong> IEDB · PSIPRED · ClusPro · PyMol ·  C-IMMSIM 
 </details>
 
 ---
@@ -121,7 +139,9 @@ As part of my work at HuGene Lab, I contributed to the genetic characterisation 
 <details>
 <summary><strong>Technical Approach</strong></summary>
 <br>
-Genetic variants were annotated and prioritised using Ensembl VEP, the GeneCards suite, and VarElect. Pathogenicity was assessed using SIFT, PolyPhen2, AlphaMissense, ClinPred, and ClinVar, with population frequency filtering against gnomAD. Structural consequences of candidate variants were modelled using HOPE, and protein-level effects were contextualised through STRING interaction networks and OMIM disease association data.
+I first annotated variants with Ensembl VEP, then used GeneCards and VarElect to prioritise genes based on disease relevance and functional evidence. Pathogenicity was assessed using SIFT, PolyPhen2, AlphaMissense, and ClinPred, requiring consensus from at least three tools. I filtered against gnomAD to retain only rare variants (MAF < 0.01). ClinVar annotations were used to flag previously reported pathogenic variants.
+
+I modelled the structural impact of prioritized variants using HOPE. To place them in a broader biological context, I built protein interaction networks (STRING) and cross‑referenced disease associations (OMIM), specifically to identify whether candidate genes form known disease‑relevant clusters (e.g., craniosynostosis or skeletal dysplasia pathways) and to assess their clinical validity.
 <br><br>
 <strong>Key tools:</strong> Ensembl VEP · GeneCards · VarElect · SIFT · PolyPhen2 · AlphaMissense · ClinPred · ClinVar · gnomAD · HOPE · STRING · OMIM
 </details>
