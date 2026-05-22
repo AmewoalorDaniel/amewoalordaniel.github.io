@@ -43,7 +43,7 @@ October 2025
 Kumasi, Ghana — November 2024
 
 "Ig-like domain-containing protein of *Wuchereria bancrofti*: a therapeutic target for a multi-epitope subunit vaccine against lymphatic filariasis."
-*Amewoalor D., Danquah F.Y.E., Manu K.K., Dunyo P., & Kwarteng A.* Download Poster (PDF)](/files/GSA_Daniel_Amewoalor_2024.pdf)
+*Amewoalor D., Danquah F.Y.E., Manu K.K., Dunyo P., & Kwarteng A.* [Download Poster (PDF)](/files/GSA_Daniel_Amewoalor_2024.pdf)
 
 <!-- <a href="/images/gsa2024-poster.jpg">
   <img src="/images/gsa2024-poster.jpg" alt="GSA Kumasi 2024 Poster"
