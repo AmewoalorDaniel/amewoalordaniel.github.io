@@ -70,7 +70,7 @@ HOW TO ADD PHOTOS
 
   <figure>
     <img src="/images/kccr-2025.jpg" alt="KCCR Internship 2025">
-    <figcaption><strong>KCCR Graduate Internship</strong> · Kumasi Centre for Collaborative Research in Tropical Medicine, 2025. View of ring-stage malaria examined with bright microscope</figcaption>
+    <figcaption><strong>KCCR Graduate Internship</strong> · Kumasi Centre for Collaborative Research in Tropical Medicine, 2025. View of ring-stage malaria examined with bright microscope.</figcaption>
   </figure>
 
   <figure>
