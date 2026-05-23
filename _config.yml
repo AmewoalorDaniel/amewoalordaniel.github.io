@@ -17,20 +17,12 @@ author:
   #pronouns         :
   bio              : "MPhil. Candidate, Biotechnology | BSc. Biochemistry, First Class Honours (2024) | KNUST"
   location         : "Kumasi, Ghana"
-  institution      : "Kwame Nkrumah University of Science and Technology"
-  email: "daniel.amewoalor.official@gmail.com"
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope"
-      url: "mailto:daniel.amewoalor.official@gmail.com"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/daniel-amewoalor-76540b218/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/AmewoalorDaniel"
-   # kaggle           :
-    # bitbucket        :
+  workplace        : "Kwame Nkrumah University of Science and Technology"
+  email            : "mailto:daniel.amewoalor.official@gmail.com"
+  linkedin         : "https://www.linkedin.com/in/daniel-amewoalor-76540b218/"
+  github           : "https://github.com/AmewoalorDaniel"
+# kaggle           :
+# bitbucket        :
  # codepen          :
  # dribbble         :
   #stackoverflow    :
