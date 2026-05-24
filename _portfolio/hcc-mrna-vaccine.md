@@ -50,26 +50,26 @@ mitotic regulator associated with chromosomal instability and poor prognosis in 
 
 ## Key Results
 
-**Epitope selection.** Stringent screening (antigenicity, allergenicity, toxicity, 
-immunogenicity) yielded 16 CTL epitopes from CDC25C, 13 from AURKA, 2 HTL epitopes from 
-AURKA, and 2 B-cell epitopes — covering a broad range of HLA alleles relevant to 
+**Epitope selection:** Stringent screening (antigenicity, allergenicity, toxicity, 
+immunogenicity) yielded 16 CTL epitopes from *CDC25C*, 13 from *AURKA*, 2 HTL epitopes from 
+*AURKA*, and 2 B-cell epitopes — covering a broad range of HLA alleles relevant to 
 diverse populations.
 
-**Construct selection.** Six vaccine constructs were assembled and refined. **Vaccine 6, 
+**Construct selection:** Six vaccine constructs were assembled and refined. **Vaccine 6, 
 Model 1** was selected as the candidate based on the lowest RMSD (0.575), highest GDT-HA 
 (0.8908), best MolProbity score (1.017), and 98.3% Ramachandran-favoured residues.
 
-**Structural stability.** The candidate vaccine (600 amino acids, MW 65,979 Da) was 
+**Structural stability:** The candidate vaccine (600 amino acids, MW 65,979 Da) was 
 stable (instability index 37.32), with a z-score of −1.56 within the range of native 
 proteins. mRNA secondary structure minimum free energy: −967.20 kcal/mol.
 
-**Molecular docking.** Docking against TLR2 (PDB: 6NIG) via ClusPro produced a 
+**Molecular docking:** Docking against TLR2 (PDB: 6NIG) using ClusPro produced a 
 favourable complex with lowest binding energy of **−1,258.9 kcal/mol** (Cluster 1, 
 34 members), indicating strong, stable interaction with the immune receptor.
 
-**Molecular dynamics simulations.** Coarse-grained molecular dynamics (CG-MD) simulations of the apo vaccine and vaccine–TLR2 complex were performed at 10, 100, and 200 ns. Comparative trajectory analysis throughout the simulation window, with RMSD, RMSF, and Rg profiles are underway.
+**Molecular dynamics simulations:** Coarse-grained molecular dynamics (CG-MD) simulations of the apo vaccine and vaccine–TLR2 complex were performed at 10, 100, and 200 ns. Comparative trajectory analysis throughout the simulation window, with RMSD, RMSF, and Rg profiles are underway.
 
-**Immune simulation.** C-ImmSim modelling (3 doses, 28-day intervals) predicted robust 
+**Immune simulation:** C-ImmSim modelling (3 doses, 28-day intervals) predicted robust 
 humoral and cellular responses: elevated IgG and IgM titres, CD8+ CTL activation, 
 CD4+ T-helper expansion, and a cytokine profile consistent with a pro-inflammatory 
 anti-tumour response.
