@@ -104,7 +104,6 @@ I simulated immune responses using C‑IMMSIM, quantifying antibody titres, T ce
 
 <br><br>
   📊 <a href="/portfolio/hcc-mrna-vaccine/"><strong>View full results, figures & analysis notebooks →</strong></a>
-</details>
 
 ---
 
