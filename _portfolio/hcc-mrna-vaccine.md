@@ -93,7 +93,7 @@ immune receptor. Normal mode analysis with iMODs confirmed the structural flexib
 
 ![Normal mode analysis of the vaccine–TLR2 complex](/images/hcc-vaccine/normal-mode-analysis.png)
 *Normal mode analysis (iMODs) of the vaccine–TLR2 complex showing (A) deformability plot, 
-(B) eigenvalue plot, (C) variance plot , (D) B-factor plot*
+(B) eigenvalue plot, (C) variance plot , (D) B-factor plot.*
 
 ---
 
@@ -107,10 +107,10 @@ RMSD, RMSF, and radius of gyration is underway for comparative assessment of the
 unbound and bound systems.
 
 ![Molecular dynamics simulation trajectories](/images/hcc-vaccine/md-simulation.png)
-*Apo vaccine coarse-grained MD analysis: system at 100 ns*
+*Apo vaccine coarse-grained MD analysis: system at 100 ns.*
 
 ![Molecular dynamics simulation trajectories](/images/hcc-vaccine/rmsd-mrna-apo.png)
-*RMSD of apo mRNA over MD simulation time. Black: 0–10 ns; red: 0–70 ns*
+*RMSD of apo mRNA over MD simulation time. Black: 0–10 ns; red: 0–70 ns.*
 
 ![Molecular dynamics simulation trajectories](/images/hcc-vaccine/structure-apo-vac-tp.png)
 *Conformations of the vaccine–TLR2 complex sampled during a 10 ns MD simulation. Snapshots shown at 0.5, 1.0, 1.5, 3.0, 5.0, and 10.0 ns.*
@@ -122,7 +122,7 @@ unbound and bound systems.
 C-ImmSim modelling with three vaccine doses administered at 28-day intervals predicted a 
 robust and physiologically consistent immune response. The simulation showed elevated IgG 
 and IgM antibody titres following booster doses, strong CD8⁺ cytotoxic T lymphocyte 
-activation, CD4⁺ T-helper cell expansion, and a cytokine and interleukin profile — 
+activation, CD4⁺ T-helper cell expansion, and a cytokine and interleukin profile,
 including IL-2 and IFN-γ — consistent with a pro-inflammatory, anti-tumour immune response.
 
 ![In silico immune simulation results](/images/hcc-vaccine/immune-simulation.png)
