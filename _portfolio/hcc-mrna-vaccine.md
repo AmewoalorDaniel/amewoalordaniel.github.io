@@ -56,6 +56,7 @@ Six multi-epitope vaccine constructs were assembled by systematically concatenat
 submitted to GalaxyRefine for 3D refinement. **Vaccine 6, Model 1** was selected as the candidate on the basis of the lowest RMSD (0.575 Å), highest GDT-HA (0.8908), best MolProbity score (1.017), lowest clash score (2.4), and 98.3% Ramachandran-favoured residues.
 
 ![3D structure of the candidate vaccine construct](/images/hcc-vaccine/3d-structure.png)
+
 *3D representation of the candidate vaccine (Vaccine 6, Model 1) with components colour-coded: P30 adjuvant, bL12 adjuvant, MHC-I epitopes, MHC-II epitopes, B-cell epitopes, and linker sequences.*
 
 ---
@@ -78,12 +79,13 @@ was −967.20 kcal/mol, supporting production stability.
 
 ---
 
-### Molecular Docking — Vaccine–TLR2 Complex
+### Molecular Docking (Vaccine–TLR2 Complex)
 
 The candidate vaccine was docked against TLR2 (PDB: 6NIG) using the ClusPro webserver. The optimal complex (Cluster 1, 34 members) achieved a lowest binding energy of **−1,258.9 kcal/mol**, indicating strong, energetically favourable interaction with the 
 immune receptor. Normal mode analysis with iMODs confirmed the structural flexibility and deformability profile of the complex is consistent with a stable, functional binding conformation.
 
 ![Vaccine–TLR2 docked complex](/images/hcc-vaccine/docking-complex.png)
+
 *3D model of the candidate vaccine–TLR2 docked complex. The vaccine construct and TLR2 receptor are shown in distinct colours, highlighting the binding interface.*
 
 ![Normal mode analysis of the vaccine–TLR2 complex](/images/hcc-vaccine/normal-mode-analysis.png)
@@ -102,7 +104,7 @@ RMSD, RMSF, and radius of gyration (Rg) is underway for comparative assessment o
 unbound and bound systems.
 
 ![Molecular dynamics simulation trajectories](/images/hcc-vaccine/md-simulation.png)
-*Apo Vaccine Coarse GrainedMD Analysis: System at 100 ns*
+*Apo vaccine coarse-grained MD analysis: system at 100 ns*
 
 ---
 
