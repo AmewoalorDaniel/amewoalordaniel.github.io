@@ -74,6 +74,9 @@ was −967.20 kcal/mol, supporting production stability.
 ![Secondary structure of the vaccine construct](/images/hcc-vaccine/secondary-structure.png)
 *Secondary structure of the candidate vaccine predicted by PSIPRED, showing predominant helical regions (pink), coils (grey), and strands (yellow).*
 
+![Secondary structure of the vaccine construct](/images/hcc-vaccine/mrna-secondary-structure.png)
+*The secondary structure of the vaccine's mRNA sequence was predicted using the RNAfold web server. (A) The centroid secondary structure with a minimum free energy of -673.66 kcal/mol (B) The minimum free energy structure of the mRNA vaccine with stability for production at -967.20 kcal/mol.*
+
 ![Structural validation: Ramachandran plot and ProSA z-score](/images/hcc-vaccine/ramachandran-prosa.png)
 *(A) Ramachandran plot showing 97.1% of residues in the most-favoured region and only 0.4% in disallowed regions. (B) ProSA z-score plot with the candidate vaccine (dark spot, z = −1.56) falling within the range of native proteins resolved by NMR and X-ray crystallography.*
 
@@ -100,11 +103,17 @@ Coarse-grained molecular dynamics (CG-MD) simulations were performed using CHARM
 to evaluate the conformational stability and dynamic behaviour of both the apo vaccine 
 construct and the vaccine–TLR2 complex. Simulations were conducted at **10, 100, and 200 ns** 
 to capture short-, intermediate-, and long-timescale dynamics. Trajectory analysis including 
-RMSD, RMSF, and radius of gyration (Rg) is underway for comparative assessment of the 
+RMSD, RMSF, and radius of gyration is underway for comparative assessment of the 
 unbound and bound systems.
 
 ![Molecular dynamics simulation trajectories](/images/hcc-vaccine/md-simulation.png)
 *Apo vaccine coarse-grained MD analysis: system at 100 ns*
+
+![Molecular dynamics simulation trajectories](/images/hcc-vaccine/rmsd-mrna-apo.png)
+*RMSD plot of Apo at 10ns and 70ns*
+
+![Molecular dynamics simulation trajectories](/images/hcc-vaccine/structure-apo-vac-tp.png)
+*Conformations of the vaccine–TLR2 complex sampled during a 10 ns MD simulation. Snapshots shown at 0.5, 1.0, 1.5, 3.0, 5.0, and 10.0 ns.*
 
 ---
 
