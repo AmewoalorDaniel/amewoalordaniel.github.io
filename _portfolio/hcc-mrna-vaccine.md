@@ -30,7 +30,7 @@ This project used computational methods to design a **safe, stable, and highly i
 | Step | Analysis | Tools |
 |------|----------|-------|
 | 1 | Transcriptomic validation of TAAs (TCGA-LIHC RNA-Seq) | TCGAbiolinks, DESeq2, clusterProfiler |
-| 2 | Epitope prediction (CTL, HTL, BCL) | NetMHCpan 4.1, IEDB, BepiPred-2.0, ElliPro |
+| 2 | Epitope prediction (CTL, HTL, BCL) | NetMHCpan, NetMHCIIpan 4.1, BepiPred-2.0, ElliPro |
 | 3 | Vaccine construct assembly (6 constructs) | Manual + linker/adjuvant selection |
 | 4 | Physicochemical characterisation | ExPASy ProtParam, Protein-Sol |
 | 5 | 3D modelling, refinement & validation | AlphaFold2, GalaxyRefine, PROCHECK, ProSA-web |
