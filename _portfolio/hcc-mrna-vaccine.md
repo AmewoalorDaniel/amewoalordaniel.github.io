@@ -110,7 +110,7 @@ unbound and bound systems.
 *Apo vaccine coarse-grained MD analysis: system at 100 ns*
 
 ![Molecular dynamics simulation trajectories](/images/hcc-vaccine/rmsd-mrna-apo.png)
-*RMSD plot of Apo at 10ns and 70ns*
+*RMSD of apo mRNA over MD simulation time. Black: 0–10 ns; red: 0–70 ns*
 
 ![Molecular dynamics simulation trajectories](/images/hcc-vaccine/structure-apo-vac-tp.png)
 *Conformations of the vaccine–TLR2 complex sampled during a 10 ns MD simulation. Snapshots shown at 0.5, 1.0, 1.5, 3.0, 5.0, and 10.0 ns.*
