@@ -15,16 +15,10 @@ header:
 
 ## Overview
 
-Hepatocellular carcinoma (HCC) is the common primary liver cancer (~90% of cases) and 
-the second leading cause of cancer-related mortality worldwide. In Ghana, it is the leading 
-cause of cancer deaths, with over 3,700 new cases annually. Current systemic therapies 
-offer limited survival benefit in advanced disease, underscoring the urgent need for novel 
-targeted approaches.
+Hepatocellular carcinoma (HCC) is the common primary liver cancer (~90% of cases) and the second leading cause of cancer-related mortality worldwide. In Ghana, it is the leading cause of cancer deaths, with over 3,700 new cases annually. Current systemic therapies 
+offer limited survival benefit in advanced disease, underscoring the urgent need for novel targeted approaches (Llovet et al., 2021).
 
-This project used computational methods to design a **safe, stable, and highly immunogenic multi-epitope 
-mRNA vaccine** targeting two overexpressed tumour-associated antigens (TAAs): ***CDC25C*** 
-(a phosphatase driving G2/M cell cycle progression) and ***AURKA*** (Aurora Kinase A, a 
-mitotic regulator associated with chromosomal instability and poor prognosis in HCC).
+This project used computational methods to design a **safe, stable, and highly immunogenic multi-epitope mRNA vaccine** targeting two overexpressed tumour-associated antigens: ***CDC25C***, a phosphatase driving G2/M cell cycle progression (Chan et al., 2012) and ***AURKA*** (Aurora Kinase A), a mitotic regulator associated with chromosomal instability and poor prognosis in HCC (Chen et. al., 2017).
 
 **Collaborators:** Helena Okyere, Ophelia Duodu  
 **Supervisor:** Professor Luke Achenie
@@ -67,12 +61,22 @@ proteins. mRNA secondary structure minimum free energy: −967.20 kcal/mol.
 favourable complex with lowest binding energy of **−1,258.9 kcal/mol** (Cluster 1, 
 34 members), indicating strong, stable interaction with the immune receptor.
 
-**Molecular dynamics simulations:** Coarse-grained molecular dynamics (CG-MD) simulations of the apo vaccine and vaccine–TLR2 complex were performed at 10, 100, and 200 ns. Comparative trajectory analysis throughout the simulation window, with RMSD, RMSF, and Rg profiles are underway.
+**Molecular dynamics simulations:** Coarse-grained molecular dynamics simulations of the apo vaccine and vaccine–TLR2 complex were performed at 10, 100, and 200 ns. Comparative trajectory analysis throughout the simulation window, with RMSD, RMSF, and Rg profiles are underway.
 
 **Immune simulation:** C-ImmSim modelling (3 doses, 28-day intervals) predicted robust 
 humoral and cellular responses: elevated IgG and IgM titres, CD8+ CTL activation, 
 CD4+ T-helper expansion, and a cytokine profile consistent with a pro-inflammatory 
 anti-tumour response.
+
+---
+
+## References
+
+Chan, T. H. M., Chen, L., Liu, M., Hu, L., Zheng, B., Poon, V. K.-M., Huang, P., Yuan, Y.-F., Huang, J., Yang, J., Tsao, G. S., & Guan, X.-Y. (2012). Translationally controlled tumor protein induces mitotic defects and chromosome missegregation in hepatocellular carcinoma development. Hepatology, 55(2), 491–505. https://doi.org/10.1002/hep.24709
+
+Chen, C., Song, G., Xiang, J., Zhang, H., Zhao, S., & Zhan, Y. (2017). AURKA promotes cancer metastasis by regulating epithelial-mesenchymal transition and cancer stem cell properties in hepatocellular carcinoma. Biochemical and Biophysical Research Communications, 486(2), 514–520. https://doi.org/10.1016/j.bbrc.2017.03.075
+
+Llovet, J. M., Kelley, R. K., Villanueva, A., Singal, A. G., Pikarsky, E., Roayaie, S., Lencioni, R., Koike, K., Zucman-Rossi, J., & Finn, R. S. (2021). Hepatocellular carcinoma. Nature Reviews Disease Primers, 7(1), 6. https://doi.org/10.1038/s41572-020-00240-3
 
 ---
 
