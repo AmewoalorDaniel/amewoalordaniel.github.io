@@ -15,17 +15,10 @@ header:
 
 ## Overview
 
-Hepatocellular carcinoma (HCC) is the most common primary liver cancer (~90% of cases) and 
-the second leading cause of cancer-related mortality worldwide. In Ghana, it is the leading 
-cause of cancer deaths, with over 3,700 new cases annually. Current systemic therapies offer 
-limited survival benefit in advanced disease, underscoring the urgent need for novel targeted 
-approaches (Llovet et al., 2021).
+Hepatocellular carcinoma (HCC) is the most common primary liver cancer (~90% of cases) and the second leading cause of cancer-related mortality worldwide. In Ghana, it is the leading cause of cancer deaths, with over 3,700 new cases annually. Current systemic therapies offer limited survival benefit in advanced disease, underscoring the urgent need for novel targeted approaches (Llovet et al., 2021).
 
-This project used computational methods to design a **safe, stable, and highly immunogenic 
-multi-epitope mRNA vaccine** targeting two overexpressed tumour-associated antigens: 
-***CDC25C***, a phosphatase driving G2/M cell cycle progression (Chan et al., 2012), and 
-***AURKA*** (Aurora Kinase A), a mitotic regulator associated with chromosomal instability 
-and poor prognosis in HCC (Chen et al., 2017).
+This project used computational methods to design a **safe, stable, and highly immunogenic multi-epitope mRNA vaccine** targeting two overexpressed tumour-associated antigens: ***CDC25C***, a phosphatase driving G2/M cell cycle progression (Chan et al., 2012), and 
+***AURKA*** (Aurora Kinase A), a mitotic regulator associated with chromosomal instability and poor prognosis in HCC (Chen et al., 2017).
 
 **Collaborators:** Helena Okyere, Ophelia Duodu  
 **Supervisor:** Professor Luke Achenie
@@ -53,27 +46,17 @@ and poor prognosis in HCC (Chen et al., 2017).
 
 ### Epitope Selection
 
-Stringent multi-step screening including antigenicity (VaxiJen v2.0), allergenicity (AllerTOP v2.0), 
-toxicity (ToxinPred), and immunogenicity (IEDB T cell immunogenicity predictor), yielded 
-**16 CTL epitopes** from *CDC25C*, **13 CTL epitopes** from *AURKA*, **2 HTL epitopes** 
-from *AURKA*, and **2 B-cell epitopes**, collectively covering a broad range of HLA-A, 
-HLA-B, and HLA-DR alleles with relevance to diverse global populations.
+Stringent multi-step screening including antigenicity (VaxiJen v2.0), allergenicity (AllerTOP v2.0), toxicity (ToxinPred), and immunogenicity (IEDB T cell immunogenicity predictor), yielded **16 CTL epitopes** from *CDC25C*, **13 CTL epitopes** from *AURKA*, **2 HTL epitopes** from *AURKA*, and **2 B-cell epitopes**, collectively covering a broad range of HLA-A, HLA-B, and HLA-DR alleles with relevance to diverse global populations.
 
 ---
 
 ### Vaccine Construct Design and Selection
 
-Six multi-epitope vaccine constructs were assembled by systematically concatenating selected 
-epitopes with adjuvants (P30 from tetanus toxin, large ribosomal subunit protein bL12) and 
-linkers (EAAAK, GPGPG, AAY, KK, GGGGS) in varied arrangements. All six constructs were 
-submitted to GalaxyRefine for 3D refinement. **Vaccine 6, Model 1** was selected as the 
-candidate on the basis of the lowest RMSD (0.575 Å), highest GDT-HA (0.8908), best 
-MolProbity score (1.017), lowest clash score (2.4), and 98.3% Ramachandran-favoured residues.
+Six multi-epitope vaccine constructs were assembled by systematically concatenating selected epitopes with adjuvants (P30 from tetanus toxin, large ribosomal subunit protein bL12) and linkers (EAAAK, GPGPG, AAY, KK, GGGGS) in varied arrangements. All six constructs were 
+submitted to GalaxyRefine for 3D refinement. **Vaccine 6, Model 1** was selected as the candidate on the basis of the lowest RMSD (0.575 Å), highest GDT-HA (0.8908), best MolProbity score (1.017), lowest clash score (2.4), and 98.3% Ramachandran-favoured residues.
 
 ![3D structure of the candidate vaccine construct](/images/hcc-vaccine/3d-structure.png)
-*3D representation of the candidate vaccine (Vaccine 6, Model 1) with components 
-colour-coded: P30 adjuvant, bL12 adjuvant, MHC-I epitopes, MHC-II epitopes, B-cell 
-epitopes, and linker sequences.*
+*3D representation of the candidate vaccine (Vaccine 6, Model 1) with components colour-coded: P30 adjuvant, bL12 adjuvant, MHC-I epitopes, MHC-II epitopes, B-cell epitopes, and linker sequences.*
 
 ---
 
@@ -88,33 +71,24 @@ resolved native proteins of comparable size. The mRNA secondary structure minimu
 was −967.20 kcal/mol, supporting production stability.
 
 ![Secondary structure of the vaccine construct](/images/hcc-vaccine/secondary-structure.png)
-*Secondary structure of the candidate vaccine predicted by PSIPRED, showing predominant 
-helical regions (pink), coils (grey), and strands (yellow).*
+*Secondary structure of the candidate vaccine predicted by PSIPRED, showing predominant helical regions (pink), coils (grey), and strands (yellow).*
 
 ![Structural validation: Ramachandran plot and ProSA z-score](/images/hcc-vaccine/ramachandran-prosa.png)
-*(A) Ramachandran plot showing 97.1% of residues in the most-favoured region and only 0.4% 
-in disallowed regions. (B) ProSA z-score plot with the candidate vaccine (dark spot, z = −1.56) 
-falling within the range of native proteins resolved by NMR and X-ray crystallography.*
+*(A) Ramachandran plot showing 97.1% of residues in the most-favoured region and only 0.4% in disallowed regions. (B) ProSA z-score plot with the candidate vaccine (dark spot, z = −1.56) falling within the range of native proteins resolved by NMR and X-ray crystallography.*
 
 ---
 
 ### Molecular Docking — Vaccine–TLR2 Complex
 
-The candidate vaccine was docked against TLR2 (PDB: 6NIG) using the ClusPro webserver. 
-The optimal complex (Cluster 1, 34 members) achieved a lowest binding energy of 
-**−1,258.9 kcal/mol**, indicating strong, energetically favourable interaction with the 
-immune receptor. Normal mode analysis with iMODs confirmed the structural flexibility 
-and deformability profile of the complex is consistent with a stable, functional binding 
-conformation.
+The candidate vaccine was docked against TLR2 (PDB: 6NIG) using the ClusPro webserver. The optimal complex (Cluster 1, 34 members) achieved a lowest binding energy of **−1,258.9 kcal/mol**, indicating strong, energetically favourable interaction with the 
+immune receptor. Normal mode analysis with iMODs confirmed the structural flexibility and deformability profile of the complex is consistent with a stable, functional binding conformation.
 
 ![Vaccine–TLR2 docked complex](/images/hcc-vaccine/docking-complex.png)
-*3D model of the candidate vaccine–TLR2 docked complex. The vaccine construct and TLR2 
-receptor are shown in distinct colours, highlighting the binding interface.*
+*3D model of the candidate vaccine–TLR2 docked complex. The vaccine construct and TLR2 receptor are shown in distinct colours, highlighting the binding interface.*
 
 ![Normal mode analysis of the vaccine–TLR2 complex](/images/hcc-vaccine/normal-mode-analysis.png)
 *Normal mode analysis (iMODs) of the vaccine–TLR2 complex showing (A) deformability plot, 
-(B) B-factor plot, (C) eigenvalue plot, (D) variance plot, (E) covariance map, and 
-(F) elastic network.*
+(B) eigenvalue plot, (C) variance plot , (D) B-factor plot*
 
 ---
 
