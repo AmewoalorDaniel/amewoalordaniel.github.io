@@ -102,6 +102,10 @@ I simulated immune responses using C‑IMMSIM, quantifying antibody titres, T ce
 <strong>Key tools:</strong> DESeq2 · TISCH2 · IEDB · VaxiJen · AllerTop · ToxinPred · AlphaFold2 · GalaxyRefine · MDAnalysis · C-IMMSIM · SnapGene · GenScript
 </details>
 
+<br><br>
+  📊 <a href="/portfolio/hcc-mrna-vaccine/"><strong>View full results, figures & analysis notebooks →</strong></a>
+</details>
+
 ---
 
 ### Multi-Epitope Subunit Vaccine Against Lymphatic Filariasis {#lf-vaccine}
@@ -145,6 +149,7 @@ I modelled the structural impact of prioritized variants using HOPE. To place th
 <br><br>
 <strong>Key tools:</strong> Ensembl VEP · GeneCards · VarElect · SIFT · PolyPhen2 · AlphaMissense · ClinPred · ClinVar · gnomAD · HOPE · STRING · OMIM
 </details>
+
 
 ---
 
