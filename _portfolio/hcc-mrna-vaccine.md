@@ -128,8 +128,7 @@ RMSD, RMSF, and radius of gyration (Rg) is underway for comparative assessment o
 unbound and bound systems.
 
 ![Molecular dynamics simulation trajectories](/images/hcc-vaccine/md-simulation.png)
-*CG-MD simulation analysis of the apo vaccine and vaccine–TLR2 complex across 10, 100, 
-and 200 ns trajectories, showing RMSD, RMSF, and Rg profiles.*
+*Apo Vaccine Coarse GrainedMD Analysis: System at 100 ns*
 
 ---
 
