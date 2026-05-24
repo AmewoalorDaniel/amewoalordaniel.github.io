@@ -15,5 +15,5 @@ underpinning my research projects.
 | Step | Notebook | Status |
 |------|----------|--------|
 | 1 | [Transcriptomic Validation of *CDC25C* and *AURKA* — TCGA-LIHC](/files/analyses/HCC_TAA_Validation.html) | ✅ Complete |
-| 2 | Epitope Prediction | 🔄 In progress |
+| 2 | Epitope Prediction | ✅ Complete |
 | 3–10 | Downstream steps | ⏳ Pending |
