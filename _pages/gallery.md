@@ -64,7 +64,7 @@ HOW TO ADD PHOTOS
   </figure>
 
   <figure>
-    <img src="/images/hugene-lab.jpg" alt="HuGene Lab">
+    <img src="/images/hugene-lab.jpeg" alt="HuGene Lab">
     <figcaption><strong>HuGene Lab, KNUST</strong> · DNA extraction and sample processing for the neurodevelopmental disorders WGS project.</figcaption>
   </figure>
 
