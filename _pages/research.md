@@ -26,7 +26,7 @@ A major focus of my research is improving tumour specificity and predicting pati
 
 I seek to understand how somatic mutations, copy-number alterations, and disruptions in driver genes reshape the tumour microenvironment and influence immune behaviour in cancers. I am particularly interested in how genomic and immunological features interact to define tumour progression, therapeutic response, and potential vulnerabilities that can be exploited therapeutically.
 
-My recent work has focused on tumour-associated macrophages and their functional heterogeneity across cancers. I am interested in how distinct macrophage transcriptional states emerge, how they contribute to tumour progression or immune suppression, and how ferroptosis-related regulatory programs shape these cellular phenotypes. More broadly, I aim to investigate how genomic alterations influence immune landscapes and how this knowledge can guide neoantigen discovery, patient stratification, and precision immunotherapy design.
+My recent work has focused on oxeiptosis and their functional heterogeneity across cancers. I aim to investigate how genomic alterations in oxeiptosis genes influence immune landscapes and how this knowledge can guide neoantigen discovery, patient stratification, and precision immunotherapy design.
 
 ---
 
