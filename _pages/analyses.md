@@ -21,7 +21,7 @@ underpinning my research projects.
 | 5 | 3D Modelling, Refinement & Validation | AlphaFold2, GalaxyRefine, PROCHECK, ProSA-web | ✅ Complete |
 | 6 | Molecular Docking — Vaccine–TLR2 | ClusPro | ✅ Complete |
 | 7 | Normal Mode Analysis | iMODs | ✅ Complete |
-| 8 | Molecular Dynamics Simulations (CG-MD, apo & complex) | CHARMM-GUI, GROMACS | 🔄 In progress |
+| 8 | Molecular Dynamics Simulations (CG-MD, apo & complex) | CHARMM-GUI, GROMACS | ✅ Complete |
 | 9 | In Silico Immune Simulation | C-ImmSim | ✅ Complete |
 | 10 | Codon Optimisation & In Silico Cloning | GenScript, SnapGene | ✅ Complete |
 
