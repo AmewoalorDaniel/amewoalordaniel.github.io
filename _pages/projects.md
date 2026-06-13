@@ -31,7 +31,7 @@ Current downstream analyses include ACMG-guided variant classification, structur
 </details>
 
 ---
-
+<!--
 ### Ferroptosis Regulatory Programs in Tumour-Associated Macrophage Subtypes Across Pan-Cancer {#ferroptosis-tam}
 *Independent Study · Structured for peer-review submission*
 
@@ -55,6 +55,7 @@ To evaluate clinical significance, I performed prognostic modelling combining un
 </details>
 
 ---
+-->
 
 ### Multi-Omic Characterization of Oxeiptosis Pathway Alterations in TCGA Pan-Cancer Cohorts: Immune Microenvironment Remodeling, Survival Implications, and Vaccine Candidacy {#oxeiptosis}
 *Independent Study · Structured for peer-review submission*
