@@ -53,9 +53,8 @@ To evaluate clinical significance, I performed prognostic modelling combining un
 <br><br>
 <strong>Key tools:</strong> GSVA · CIBERSORTx · TIMER2.0 · TISCH2 · FerrDb · glmnet (LASSO Cox) · oncoPredict/GDSC2 · TIDE · ComplexHeatmap · survminer · R (tidyverse, survival, TCGAbiolinks)
 </details>
-
----
 -->
+---
 
 ### Multi-Omic Characterization of Oxeiptosis Pathway Alterations in TCGA Pan-Cancer Cohorts: Immune Microenvironment Remodeling, Survival Implications, and Vaccine Candidacy {#oxeiptosis}
 *Independent Study · Structured for peer-review submission*
