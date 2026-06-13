@@ -32,31 +32,6 @@ Current downstream analyses include ACMG-guided variant classification, structur
 
 ---
 
-### Ferroptosis Regulatory Programs in Tumour-Associated Macrophage Subtypes Across Pan-Cancer {#ferroptosis-tam}
-*Independent Study · Structured for peer-review submission*
-
-<!-- <img src="/images/ferroptosis-tam.png" alt="Ferroptosis TAM project"
-     style="float:right; width:310px; margin:0 0 15px 25px; border-radius:6px;"> -->
-
-Ferroptosis, an iron-dependent form of regulated cell death, is an important regulator of tumour biology and anti-tumour immunity. Tumour-associated macrophages (TAMs) are the most heterogeneous and influential immune cell populations within the tumour microenvironment. Despite growing interest in both fields, how ferroptosis-related programs shape TAM biology across cancers remains poorly understood.
-
-This project investigates how ferroptosis driver and suppressor pathways are distributed across transcriptionally distinct TAM subtypes in multiple cancer types, including breast, colorectal, kidney, liver, and non-small cell lung cancer. The project aims to determine whether these regulatory programs influence patient outcomes or reveal targetable therapeutic vulnerabilities. The single-cell TAM signature extraction and ferroptosis gene set construction phases are complete, and downstream analyses are ongoing.
-
-<details>
-
-<summary><strong>Approach & Tools</strong></summary>
-<br>
-I defined TAM subtypes using the 18-subtype canonical framework described by <a href="https://doi.org/10.1016/j.heliyon.2024.e28332">Rakina et al. (<em>Heliyon</em>, 2024)</a>. Single-cell signatures from TISCH2 allowed me to apply this classification across five solid tumour types (breast, colon, lung, ovarian, and melanoma). I curated ferroptosis gene programmes from FerrDb V2/V3 and MSigDB, covering canonical drivers and suppressors. I manually curated regulatory axes involving <em>GPX4</em>, <em>ACSL4</em>, iron metabolism, and <em>p53</em>/<em>NRF2</em> signalling.
-     
-I deconvoluted bulk transcriptomes using CIBERSORTx with my custom 18‑subtype signature matrix. TIMER2.0 served as orthogonal validation to confirm robustness. Ferroptosis pathway activity and TAM consensus signatures were quantified using ssGSEA (GSVA package) across TCGA STAR FPKM‑UQ datasets.
-     
-To evaluate clinical significance, I performed prognostic modelling combining univariate Cox screening with LASSO Cox regression (glmnet). External validation was conducted across independent GEO cohorts: GSE25066, GSE39582, GSE73731, GSE109211, and GSE72094. I predicted drug sensitivity to ferroptosis‑targeting compounds (RSL3, Erastin, Sorafenib) using oncoPredict and GDSC2. For immunogenomic characterization, I applied TIDE to model immune exclusion and profiled immune checkpoint gene expression.
-<br><br>
-<strong>Key tools:</strong> GSVA · CIBERSORTx · TIMER2.0 · TISCH2 · FerrDb · glmnet (LASSO Cox) · oncoPredict/GDSC2 · TIDE · ComplexHeatmap · survminer · R (tidyverse, survival, TCGAbiolinks)
-</details>
-
----
-
 ### Multi-Omic Characterization of Oxeiptosis Pathway Alterations in TCGA Pan-Cancer Cohorts: Immune Microenvironment Remodeling, Survival Implications, and Vaccine Candidacy {#oxeiptosis}
 *Independent Study · Structured for peer-review submission*
 
