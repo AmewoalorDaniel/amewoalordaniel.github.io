@@ -56,7 +56,7 @@ I performed differential expression analysis using DESeq2 with apeglm shrinkage,
 
 ---
 
-### Integrative Cancer Genomics Approach to Design and Characterize a Multi-Epitope mRNA Vaccine Against Hepatocellular Carcinoma {#hcc-vaccine}
+### Immunoinformatics-Guided Design and Characterization of a Novel Multi-Epitope mRNA Vaccine Against Hepatocellular Carcinoma Targeting Overexpressed *CDC25C* and *AURKA* {#hcc-vaccine}
 *Independent Investigator, KNUST · Completed*
 
 <!-- <img src="/images/hcc-vaccine.png" alt="HCC vaccine project"
