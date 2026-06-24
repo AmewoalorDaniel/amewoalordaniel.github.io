@@ -1,5 +1,5 @@
 ---
-title: "Integrative Cancer Genomics Approach to Design and Characterize a Multi-Epitope mRNA Vaccine Against Hepatocellular Carcinoma"
+title: "Immunoinformatics-Guided Design and Characterization of a Novel Multi-Epitope mRNA Vaccine Against Hepatocellular Carcinoma Targeting Overexpressed *CDC25C* and *AURKA* "
 excerpt: "A complete immunoinformatics pipeline targeting *CDC25C* and *AURKA* as tumour-associated antigens in HCC — from transcriptomic validation through molecular docking and immune simulation."
 collection: portfolio
 date: 2026-05-20
