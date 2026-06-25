@@ -40,7 +40,11 @@ Current downstream analyses include ACMG-guided variant classification, structur
 
 Oxidative stress is a reactive oxygen species-dependent cell death pathway regulated by *AIFM2*, *PGAM5*, and *KEAP1*, genes frequently altered in cancer. Although these alterations are well documented at the genomic level, their effects on the tumour immune microenvironment remain largely unexplored.
 
-In this project, I analysed approximately 2,055 patients across four TCGA cancer cohorts to investigate whether alterations in the oxeiptosis pathway are associated with changes in tumour immune composition, immune activity, and immunotherapy response. I am also exploring whether recurrent *KEAP1* hotspot mutations generate neoantigens that could serve as targets for therapeutic cancer vaccines. Preliminary findings suggest altered macrophage and regulatory T cell infiltration patterns in affected lung adenocarcinomas, as well as broader immune subtype shifts in both lung and breast cancers.
+In this project, I analysed approximately 2,055 patients across four TCGA cancer cohorts to investigate whether alterations in the oxeiptosis pathway are associated with changes in tumour immune composition, immune activity, and immunotherapy response. I am also exploring whether recurrent *KEAP1* hotspot mutations generate neoantigens that could serve as targets for therapeutic cancer vaccines. Preliminary findings suggest that lung adenocarcinoma harboring oxeiptosis gene mutations exhibit distinct leukocyte infiltration patterns and a lower predicted immunotherapy response compared to wild-type tumors.
+
+---
+
+**Preliminary findings suggest that LUAD harboring oxeiptosis gene mutations exhibit distinct leukocyte infiltration patterns and a lower predicted immunotherapy response compared to wild-type tumors.**
 
 <details>
 <summary><strong>Approach & Tools</strong></summary>
