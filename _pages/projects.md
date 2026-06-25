@@ -27,7 +27,7 @@ For rare variant prioritization, I used filtered out common variants using popul
 
 Current downstream analyses include ACMG-guided variant classification, structural protein modelling using HOPE and GROMACS, and regulatory variant interpretation through RegulomeDB, 3DSNP, and AlphaGenome. To place candidate variants within broader biological networks, I also perform protein interaction and pathway enrichment analyses using STRING, Cytoscape, Reactome, and clusterProfiler, alongside single-cell expression mapping across craniofacial developmental and cancer-related datasets using CancerSCEM 2.0, CZ CELLxGENE, and CanCellVar.
 <br><br>
-<strong>Key tools:</strong> Sentieon · DNAscope · Ensembl VEP v115 · AlphaMissense · REVEL · CADD · ClinPred · SpliceAI · gnomAD · GROMACS · STRING · clusterProfiler · Reactome
+<strong>Key tools:</strong> Sentieon · DNAscope · Ensembl VEP v115 · SIFT · PolyPhen-2 · AlphaMissense · REVEL · CADD · ClinPred · SpliceAI · gnomAD · STRING · clusterProfiler · Reactome
 </details>
 
 ---
