@@ -44,8 +44,6 @@ In this project, I analysed approximately 2,055 patients across four TCGA cancer
 
 ---
 
-**Preliminary findings suggest that LUAD harboring oxeiptosis gene mutations exhibit distinct leukocyte infiltration patterns and a lower predicted immunotherapy response compared to wild-type tumors.**
-
 <details>
 <summary><strong>Approach & Tools</strong></summary>
 <br>
