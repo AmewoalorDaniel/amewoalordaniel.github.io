@@ -59,7 +59,7 @@ I performed differential expression analysis using DESeq2 with apeglm shrinkage,
 ---
 
 ### Immunoinformatics-Guided Design and Characterization of a Novel Multi-Epitope mRNA Vaccine Against Hepatocellular Carcinoma Targeting Overexpressed *CDC25C* and *AURKA* {#hcc-vaccine}
-*Independent Investigator, KNUST · Completed*
+*Lead Student Investigator, KNUST · Completed*
 
 <!-- <img src="/images/hcc-vaccine.png" alt="HCC vaccine project"
      style="float:right; width:310px; margin:0 0 15px 25px; border-radius:6px;"> -->
